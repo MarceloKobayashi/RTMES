@@ -4,7 +4,7 @@
 
 ## Sobre
 
-RTMES é um sistema desenvolvido para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal. O sistema centraliza as solicitações, apresenta disponibilidade em calendário e permite que a ASQUALOG aprove ou recuse pedidos, reduzindo o fluxo manual por e-mail que existia anteriormente.
+RTMES é um sistema desenvolvido em Oracle APEX para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal. O sistema centraliza as solicitações, apresenta disponibilidade em calendário e permite que a ASQUALOG aprove ou recuse pedidos, reduzindo o fluxo manual por e-mail que existia anteriormente.
 
 ## Problema que resolve
 
