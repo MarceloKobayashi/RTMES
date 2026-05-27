@@ -81,14 +81,6 @@ O banco de dados consiste em 5 tabelas (duas com valores estáticos). As tabelas
 
 ---
 
-## 📝 Notas e recomendações
-
-- FKs: `HORARIOS_MEZANINO.id_reserva` e `ATENDIMENTO_RESERVAS.fk_atendimento_reservas_reservas` → `RESERVAS.id_reserva`.
-- Índices sugeridos: `RESERVAS(dat_inicio, dat_fim)`, `RESERVAS(cod_pessoa)`, `HORARIOS_MEZANINO(dat)`.
-- Atenção com campos BLOB e `VARCHAR2(4000)` para exportação e backups.
-
----
-
 ## 🗺️ Diagrama físico
 
 <p align="center">

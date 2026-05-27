@@ -20,7 +20,6 @@
 | Item | Local |
 |------|-------|
 | Documentação do banco | [docs/banco_de_dados/README.md](docs/banco_de_dados/README.md) |
-| Arquivo base | `resumos.txt` |
 
 ---
 
