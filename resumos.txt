@@ -1,0 +1,19 @@
+Meu sistema é chamado RTMES - Reservas de Totens e Mesas - Espaço do Servidor.
+Ele se originou a partir de um problema de logística, onde para que uma pessoa do Senado Federal
+    pudesse fazer uma reserva de totens, de adesivagem das mesas ou do mezanino, ela tinha
+    que mandar um e-mail para a ASQUALOG perguntando se na data requerida tinha disponibilidade, a 
+    ASQUALOG verificava na planilha do excel, retornava outro e-mail para o solicitante e se tivesse
+    disponibilidade, tudo bem, agora se não tivesse, no e-mail da ASQUALOG, mandava algumas datas que
+    estavam disponíveis para ver se o solicitante estaria interessado. Ou seja, ficava esse fluxo total-
+    mente desnecessário. Esse foi o problema inicial.
+A partir disso, comecei a projetar o sistema, desde a minha entrevista, para solucionar de forma eficiente.
+    O que tem no sistema para solucionar isso é um calendário que contém os diversos eventos nas respectivas
+    datas, para que o usuário já saiba quando teria disponibilidade.
+O objetivo principal do sistema é esse, entretanto diversas outras funcionalidades foram aplicadas ao decorrer
+    do seu desenvolvimento. Algumas delas são: reservas de totens (porta-banner e porta-cartaz), adesivagem de mesas
+    e mezanino; visualização de todas as reservas, aprovação/recusa de reservas pela ASQUALOG, relatório de reservas,
+    envio de e-mail ao patrimônio para realocar totens.
+Outra coisa é que apesar de o projeto de estagiários para desenvolvimento descentralizado ser a ideia inicial
+    do Prodasen, o RTMES foi um sistema desenvolvido para todos do Senado Federal, sendo o primeiro desses
+    sistemas a estar presente na Central de Serviços. Já que todos podem fazer reservas, mas apenas a ASQUALOG
+    pode analisar tais.
