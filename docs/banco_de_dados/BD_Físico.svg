@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <style>
+    .tbl { fill: #ffffff; stroke: #2b6cb0; stroke-width:2; rx:8; }
+    .tbl-title { font: bold 16px sans-serif; fill: #2b6cb0; }
+    .col { font: 13px monospace; fill: #222222; }
+    .rel { stroke: #444444; stroke-width:2; marker-end: url(#arrow); }
+    .note { font: 12px sans-serif; fill: #666666; }
+  </style>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="10" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#444444" />
+    </marker>
+  </defs>
+
+  <!-- RESERVAS center-left -->
+  <g transform="translate(120,80)">
+    <rect class="tbl" width="320" height="120" />
+    <text x="16" y="28" class="tbl-title">RESERVAS</text>
+    <text x="16" y="52" class="col">id_reserva (PK)</text>
+    <text x="16" y="70" class="col">dat_inicio, dat_fim</text>
+    <text x="16" y="88" class="col">tip_reservas, status</text>
+  </g>
+
+  <!-- HORARIOS_MEZANINO top-right -->
+  <g transform="translate(520,40)">
+    <rect class="tbl" width="300" height="100" />
+    <text x="14" y="26" class="tbl-title">HORARIOS_MEZANINO</text>
+    <text x="14" y="50" class="col">id_horario (PK)</text>
+    <text x="14" y="68" class="col">id_reserva (FK) — dat, hor_inicio</text>
+  </g>
+
+  <!-- ATENDIMENTO_RESERVAS mid-right -->
+  <g transform="translate(520,180)">
+    <rect class="tbl" width="300" height="110" />
+    <text x="14" y="28" class="tbl-title">ATENDIMENTO_RESERVAS</text>
+    <text x="14" y="52" class="col">pk_atendimento_reservas (PK)</text>
+    <text x="14" y="70" class="col">fk_atendimento_reservas_reservas (FK)</text>
+    <text x="14" y="88" class="col">dat_criacao_atendimento</text>
+  </g>
+
+  <!-- RESERVAS_IMG bottom-left -->
+  <g transform="translate(120,240)">
+    <rect class="tbl" width="320" height="80" />
+    <text x="16" y="28" class="tbl-title">RESERVAS_IMG</text>
+    <text x="16" y="52" class="col">id_img (PK) — imagens (BLOB)</text>
+  </g>
+
+  <!-- RESERVAS_LOCAIS bottom-right -->
+  <g transform="translate(520,320)">
+    <rect class="tbl" width="300" height="80" />
+    <text x="14" y="28" class="tbl-title">RESERVAS_LOCAIS</text>
+    <text x="14" y="52" class="col">id_local (PK) — des_local</text>
+  </g>
+
+  <!-- Relationships -->
+  <line class="rel" x1="440" y1="120" x2="520" y2="90" />
+  <text x="480" y="100" class="note">1..* (RESERVAS → HORARIOS_MEZANINO)</text>
+
+  <line class="rel" x1="440" y1="140" x2="520" y2="225" />
+  <text x="480" y="185" class="note">1..* (RESERVAS → ATENDIMENTO_RESERVAS)</text>
+
+  <!-- footer note -->
+  <text x="40" y="620" class="note">Geração automática: versão de diagrama em SVG simplificada para documentação.</text>
+
+</svg>
