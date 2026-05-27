@@ -1,54 +1,63 @@
-![Logo do Senado Federal](docs/assets/senado-logo.png)
 
-# RTMES - Reserva de Totens e Mesas - Espaço do Servidor
+<div align="center">
 
-## Sobre
+<p align="center">
+	<img src="docs/assets/senado-logo.png" alt="Logo do Senado Federal" width="96" /><br>
+	<h1>RTMES — Reserva de Totens e Mesas — Espaço do Servidor</h1>
+</p>
 
-RTMES é um sistema desenvolvido em Oracle APEX para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal. O sistema centraliza as solicitações, apresenta disponibilidade em calendário e permite que a ASQUALOG aprove ou recuse pedidos, reduzindo o fluxo manual por e-mail que existia anteriormente.
+> Sistema desenvolvido em **Oracle APEX** para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal.
 
-## Problema que resolve
+[![Oracle APEX](https://img.shields.io/badge/Oracle%20APEX-Application-orange?logo=oracle&logoColor=white)](https://apex.oracle.com/)
+[![Oracle Database](https://img.shields.io/badge/Oracle-Database-red?logo=oracle&logoColor=white)](https://www.oracle.com/database/)
 
-Anteriormente, reservas eram feitas por e-mail à ASQUALOG, que conferia disponibilidade em planilhas Excel e respondia ao solicitante — um processo lento e suscetível a erros e retrabalho. O RTMES automatiza essa troca, exibindo disponibilidade em calendário e permitindo solicitações e aprovações diretamente na plataforma.
-
-## Objetivos
-
-- Reduzir o tempo e esforço para solicitar e aprovar reservas.
-- Centralizar e tornar transparente a disponibilidade de espaços e totens.
-- Fornecer controles de aprovação para a ASQUALOG.
-- Gerar relatórios e notificações (e-mail) para ações administrativas.
-
-## Funcionalidades principais
-
-- Calendário de eventos e disponibilidade.
-- Reserva de totens (porta-banner, porta-cartaz).
-- Solicitação de adesivagem de mesas e mezanino.
-- Visualização e gestão de todas as reservas.
-- Aprovação/recusa de reservas pela ASQUALOG.
-- Relatórios de reservas e envio de e-mails para realocação de totens.
-
-## Estrutura da documentação
-
-Toda a documentação detalhada ficará dentro da pasta `docs/`, organizada por módulos:
-
-- `docs/contexto/` — Contexto do sistema e problema resolvido
-- `docs/objetivos/` — Objetivos, requisitos e público-alvo
-- `docs/arquitetura/` — Estrutura técnica: banco de dados, backend, frontend
-- `docs/instalacao/` — Guia de instalação e execução
-- `docs/exemplos/` — Exemplos de código, endpoints e integrações
-- `docs/revisao/` — Checklist de revisão e entrega
-
-> Observação: coloque o logo do Senado em `docs/assets/senado-logo.png` para que a imagem no topo seja exibida.
-
-## Próximos passos
-
-1. Criar a pasta `docs/` com a estrutura de módulos.
-2. Preencher `docs/contexto/` com o histórico e o problema (baseado em `resumos.txt`).
-3. Escrever objetivos e requisitos.
-
-## Como contribuir
-
-Abra uma issue descrevendo a alteração proposta ou faça um fork e envie um pull request com as alterações na pasta `docs/`.
+</div>
 
 ---
 
-Arquivo base usado: `resumos.txt` (conteúdo resumido e adaptado).
+## 🔎 Acesso Rápido
+
+| Item | Local |
+|------|-------|
+| Documentação do banco | [docs/banco_de_dados/README.md](docs/banco_de_dados/README.md) |
+| Arquivo base | `resumos.txt` |
+
+---
+
+## 📖 Índice
+
+- [Visão Geral](#-visão-geral)
+- [Problema que resolve](#-problema-que-resolve)
+- [Objetivos](#-objetivos)
+- [Funcionalidades principais](#-funcionalidades-principais)
+- [Estrutura da documentação](#-estrutura-da-documentação)
+- [Próximos passos](#-próximos-passos)
+- [Como contribuir](#-como-contribuir)
+
+---
+
+## 🎯 Visão Geral
+
+RTMES centraliza solicitações de reserva de totens, adesivagem de mesas e mezanino, mostrando disponibilidade em calendário e permitindo gestão centralizada pela ASQUALOG.
+
+## ❗ Problema que resolve
+
+O processo anterior dependia de e-mails e planilhas Excel, gerando atrasos, retrabalho e risco de conflitos de disponibilidade. O RTMES automatiza a visualização e o fluxo de aprovação.
+
+## 🎯 Objetivos
+
+- Reduzir tempo e esforço em solicitações e aprovações
+- Centralizar e tornar transparente a disponibilidade
+- Controlar aprovações pela ASQUALOG
+- Gerar relatórios e notificações administrativas
+
+## 🧩 Funcionalidades principais
+
+- Calendário de eventos e disponibilidade
+- Reserva de totens (porta-banner, porta-cartaz)
+- Solicitação de adesivagem de mesas e mezanino
+- Visualização e gestão de reservas
+- Aprovação/recusa de reservas pela ASQUALOG
+- Relatórios e envio de e-mails para realocação de totens
+
+---
