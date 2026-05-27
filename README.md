@@ -6,7 +6,7 @@
 	<h1>RTMES — Reserva de Totens e Mesas — Espaço do Servidor</h1>
 </p>
 
-> Sistema desenvolvido em **Oracle APEX** para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal.
+> Sistema desenvolvido no Senado Federal (ASQUALOG) em **Oracle APEX** para gerenciar reservas de totens, adesivagem de mesas e uso do mezanino no Senado Federal.
 
 [![Oracle APEX](https://img.shields.io/badge/Oracle%20APEX-Application-orange?logo=oracle&logoColor=white)](https://apex.oracle.com/)
 [![Oracle Database](https://img.shields.io/badge/Oracle-Database-red?logo=oracle&logoColor=white)](https://www.oracle.com/database/)
