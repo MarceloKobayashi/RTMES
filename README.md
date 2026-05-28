@@ -15,6 +15,14 @@
 
 ---
 
+<div align="center">
+	<p>
+		<strong>Desenvolvido por:</strong> <a href="https://github.com/MarceloKobayashi">Marcelo Honda Kobayashi</a><br>
+		<strong>Idealizado por:</strong> Paula Yumi Nobumoto e Lucyana Maria Araújo de Moraes Vega<br>
+		<strong>Com apoio de:</strong> João Gabriel Nogueira Santos
+	</p>
+</div>
+
 ## 🔎 Acesso Rápido
 
 | Item | Local |
