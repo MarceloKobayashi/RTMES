@@ -47,6 +47,12 @@
 
 RTMES centraliza solicitações de reserva de totens, adesivagem de mesas e mezanino, mostrando disponibilidade em calendário e permitindo gestão centralizada pela ASQUALOG.
 
+## 🧭 Contexto e origem
+
+O RTMES nasceu da ideia de Paula Yumi Nobumoto para facilitar o fluxo e a logística de reservas de totens, adesivagem e mezanino. Para validar a proposta, ela realizou entrevistas com estagiários que participavam do processo seletivo de desenvolvimento descentralizado em Oracle APEX.
+
+Na entrevista, além da avaliação de soft skills e da apresentação pessoal, havia uma etapa teórica na qual era apresentado o problema de reservas e o candidato deveria propor uma solução. Após esse processo, o estagiário Marcelo Honda Kobayashi foi escolhido e iniciou o desenvolvimento de um protótipo com apoio de usuários finais, da própria ASQUALOG e também de usuários externos ao setor.
+
 ## ❗ Problema que resolve
 
 O processo anterior dependia de e-mails e planilhas Excel, gerando atrasos, retrabalho e risco de conflitos de disponibilidade. O RTMES automatiza a visualização e o fluxo de aprovação.
