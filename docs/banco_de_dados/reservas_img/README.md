@@ -29,9 +29,16 @@ Armazena imagens de referência exibidas no frontend para ilustrar tipos de tote
 - `mimetype_car` — VARCHAR2(200) — not null — extensão/tipo da imagem do porta-cartaz
 - `filename_car` — VARCHAR2(200) — not null — nome do arquivo da imagem do porta-cartaz
 
-## ⚙️ Constraints / Triggers
+## ⚙️ Constraints
 
-- Nenhuma relação com outras tabelas; rotina de manutenção manual recomendada
+- `RESERVAS_IMG_PK` - Define a coluna de identificador como primary key.
+```sql
+CONSTRAINT "RESERVAS_IMG_PK" PRIMARY KEY ("ID_IMG") USING INDEX ENABLE
+```
+
+## ⚙️ Triggers
+
+Não há triggers relacionados a essa tabela.
 
 ---
 
