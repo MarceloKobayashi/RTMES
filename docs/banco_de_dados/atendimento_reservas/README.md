@@ -28,10 +28,21 @@ Registros automáticos que documentam cada mudança de estado ou ação tomada s
 - `fk_atendimento_reservas_reservas` — NUMBER — not null — chave estrangeira para a tabela `RESERVAS`
 - `confirmado` — CHAR(1) — not null — índice para saber se esse registro confirmou a reserva
 
-## ⚙️ Constraints / Triggers
+## ⚙️ Constraints
 
-- FK para `RESERVAS` em `fk_atendimento_reservas_reservas`
-- Índices por `dat_criacao_atendimento` para relatórios e buscas
+- `ATENDIMENTO_RESERVAS_PK` - Define a coluna de identificador como primary key.
+```sql
+CONSTRAINT "ATENDIMENTO_RESERVAS_PK" PRIMARY KEY ("PK_ATENDIMENTO_RESERVAS") USING INDEX ENABLE
+```
+
+- `ATENDIMENTO_RESERVAS_CON` - Define a coluna de identificador da reserva como foreign key. 
+```sql
+CONSTRAINT "ATENDIMENTO_RESERVAS_CON" FOREIGN KEY ("FK_ATENDIMENTO_RESERVAS_RESERVAS") REFERENCES "RESERVAS"("ID_RESERVA") ENABLE
+```
+
+## ⚙️ Triggers
+
+Não há triggers relacionados a essa tabela.
 
 ## 🧪 Exemplos
 
