@@ -181,6 +181,4 @@ SELECT * FROM reservas WHERE status = 'confirmado' AND dat_inicio >= TRUNC(SYSDA
 
 ---
 
-## 🤝 Contribuir
-
-Edite este arquivo para adicionar constraints, triggers e exemplos. Voltar para: [Visão geral do BD](../README.md)
+Voltar para: [Visão geral do BD](../README.md)
