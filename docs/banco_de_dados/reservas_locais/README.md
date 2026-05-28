@@ -24,9 +24,16 @@ Armazena os locais pré-definidos utilizados nas solicitações de totens e cart
 - `id_local` — NUMBER — not null — identificador do local
 - `des_local` — VARCHAR2(200) — nome do local
 
-## ⚙️ Constraints / Triggers
+## ⚙️ Constraints
 
-- Tabela estática; considerar criar rotina de importação a partir de planilha se necessário.
+- `SYS_C0060515` - Define a coluna de identificador como primary key. Não fiz uma constraint própria para isso!
+```sql
+PRIMARY KEY ("ID_LOCAL") USING INDEX ENABLE
+```
+
+## ⚙️ Triggers
+
+Não há triggers relacionados a essa tabela.
 
 ---
 
