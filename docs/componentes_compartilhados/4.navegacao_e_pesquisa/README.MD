@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-	<h1>3. Navegação e Pesquisa</h1>
+	<h1>4. Navegação e Pesquisa</h1>
 </p>
 
 </div>
@@ -21,9 +21,9 @@ Vou apresentar o que o sistema utiliza dessa parte. Já que eu utilizo um header
     ├── E-mail Patrimônio<br>
     ├── Histórico Geral<br>
     ├── Minhas Reservas<br>
-    ├   ├── Cancelar Reservas<br>
-    ├   └── Fazer Reserva<br>
-    ├       └── Confirmar Solicitação<br>
+    ├   <tab>├── Cancelar Reservas<br>
+    ├   <tab>└── Fazer Reserva<br>
+    ├    <tab><tab>   └── Confirmar Solicitação<br>
     ├── Relatório<br>
     └── Reserva do Mezanino<br>
         └── Confirmar Mezanino 
