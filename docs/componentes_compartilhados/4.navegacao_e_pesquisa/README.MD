@@ -21,9 +21,9 @@ Vou apresentar o que o sistema utiliza dessa parte. Já que eu utilizo um header
     ├── E-mail Patrimônio<br>
     ├── Histórico Geral<br>
     ├── Minhas Reservas<br>
-    ├   <tab>├── Cancelar Reservas<br>
-    ├   <tab>└── Fazer Reserva<br>
-    ├    <tab><tab>   └── Confirmar Solicitação<br>
+    ├   ├── Cancelar Reservas<br>
+    ├   └── Fazer Reserva<br>
+    ├       └── Confirmar Solicitação<br>
     ├── Relatório<br>
     └── Reserva do Mezanino<br>
         └── Confirmar Mezanino 
