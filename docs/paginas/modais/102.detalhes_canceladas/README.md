@@ -14,7 +14,7 @@ A página `102` contém o histórico completo do atendimento de uma reserva, com
 
 ---
 
-## 3 — Atendimento (Relatório Interativo)
+## 1 — Atendimento (Relatório Interativo)
 
 Essa região tem como objetivo mostrar ao usuário os registros de atendimento dessa reserva, como 'Registro da Solicitação', 'Reserva confirmada para realização'. Além disso, também mostra a data e hora que foi feita tal etapa e quem realizou tal etapa do atendimento.
 
