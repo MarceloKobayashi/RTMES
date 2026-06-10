@@ -104,6 +104,7 @@ Basicamente a região é composta por duas regiões, o calendário e a legenda d
     + Verde - Reserva confirmada de outro usuário.
     + Amarelo - Reserva pendente de outro usuário.
     <br>
+    
     ```sql
         SELECT ID_RESERVA,
             DAT_INICIO,
@@ -143,7 +144,7 @@ Basicamente a região é composta por duas regiões, o calendário e a legenda d
             END AS colorir_pendente
         FROM RESERVAS
         WHERE ( :P3_TIP_RESERVAS IS NULL OR UPPER(TIP_RESERVAS) = UPPER(:P3_TIP_RESERVAS) )
-        AND STATUS NOT IN ('Cancelado')
+          AND STATUS NOT IN ('Cancelado')
     ```
     
     <br>
