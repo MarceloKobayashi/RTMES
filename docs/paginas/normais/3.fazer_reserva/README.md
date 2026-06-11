@@ -146,7 +146,7 @@ Basicamente a região é composta por duas regiões, o calendário e a legenda d
         WHERE ( :P3_TIP_RESERVAS IS NULL OR UPPER(TIP_RESERVAS) = UPPER(:P3_TIP_RESERVAS) )
           AND STATUS NOT IN ('Cancelado')
     ```
-    
+
     <br>
     A cor dos eventos é feita pela coluna colorir_pendente na query e é colocada em 'Atributos' do calendário no campo 'Classe CSS'.
 
