@@ -1,4 +1,8 @@
 
+> [!WARNING]
+CONSERTAR A QUERY DE CONFIRMAÇÃO!
+IMAGENS DE MEZANINO!
+
 <div align="center">
 
 <p align="center">
